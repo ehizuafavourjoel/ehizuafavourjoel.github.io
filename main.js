@@ -27,13 +27,14 @@ if (localStorage.getItem('mode')) {
   }
 }
 
+//Mode button direction pop-up
+if (document.body.id === 'homePage') {
+  if (!localStorage.getItem('mode')) {
+    alert('You can toggle the mode of the page with the toggle bar at the top right corner of the Home page')
+  }
+}
 
-if (!localStorage.getItem('mode')) {
-  alert('You can toggle the mode of the page with the toggle bar at the top right corner of the page')
-}
-else {
-  console.log('no')
-}
+
 
 
 //Menu Toggle
