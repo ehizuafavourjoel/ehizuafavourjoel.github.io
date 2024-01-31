@@ -487,9 +487,8 @@ body.dark .toggleContainer .toggleBtn {
 .testimony--card:hover {
   transform: scale(1.02)
 }
-.testimony--card .stars span {
-  background: white;
-  background-clip: text;
+.fa-star {
+  color: rgb(255, 208, 0);
 }
 
 .testimony--card .profile {
@@ -595,7 +594,7 @@ footer div.row2 {
 
 /* customer_service page */
 .otherPages {
-  padding: 50px;
+  padding: 50px 20px;
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
