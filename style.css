@@ -51,8 +51,7 @@ body {
   --cardButtom: #2F3659;
   --cardBottomHover: lime;
   --bgFooter: #E9E9E9;
-  --sun: '☀';
-  --grayScale: grayscale(0)
+  --sun: '☀'
 }
 
 body.dark {
@@ -69,8 +68,7 @@ body.dark {
   --cardButtom: lime;
   --cardBottomHover: #CAD3FF;
   --bgFooter: #000000;
-  --sun: '🌙';
-  --grayScale: grayscale(100)
+  --sun: '🌙'
 }
 
 i {
@@ -318,7 +316,7 @@ img {
 .toggleContainer .toggleBtn::after {
   content: var(--sun);
   color: var(--black);
-  filter: var(--grayScale);
+  filter: grayscale(100);
 }
 body.dark .toggleContainer .toggleBtn {
   transform: translate(90%)
